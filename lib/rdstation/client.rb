@@ -5,7 +5,7 @@ module RDStation
   class Client
     include HTTParty
 
-    def initialize(rdstation_token, auth_token, identifier="integração")
+    def initialize(rdstation_token, auth_token, identifier="integracao")
       @identificador = identifier
       @rdstation_token = rdstation_token
       @auth_token = auth_token
